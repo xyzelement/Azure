@@ -12,7 +12,7 @@
 				<description>Performance Test Report Details</description>
 			</attachment>
 			<attachment>
-				<filePath>raw.csv</filePath>
+				<filePath>/home/vsts/work/1/s/raw.csv</filePath>
 				<description>Raw Cycle Time Data</description>
 			</attachment>
 		</attachments>
