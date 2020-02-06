@@ -8,11 +8,11 @@
 
 		<attachments>
 			<attachment>
-				<filePath>./report.html</filePath>
+				<filePath>report.html</filePath>
 				<description>Performance Test Report Details</description>
 			</attachment>
 			<attachment>
-				<filePath>./raw.csv</filePath>
+				<filePath>raw.csv</filePath>
 				<description>Raw Cycle Time Data</description>
 			</attachment>
 		</attachments>
