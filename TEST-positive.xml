@@ -8,7 +8,7 @@
 
 		<attachments>
 			<attachment>
-				<filePath>report.html</filePath>
+				<filePath>/home/vsts/work/1/s/report.html</filePath>
 				<description>Performance Test Report Details</description>
 			</attachment>
 			<attachment>
