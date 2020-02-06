@@ -5,13 +5,19 @@
 
 
 	<test-suite type="Assembly" id="9000" name="Concurrent with 20% Futures" fullname="Concurrent with 20% Futures" result="Passed">
-		<properties>
-			<property name="_PID" value="11928" />
-			<property name="_APPDOMAIN" value="test-domain-mock-assembly.dll" />
-		</properties>
-		<failure>
-			<message><![CDATA[Child test failed]]></message>
-		</failure>
+
+		<attachments>
+			<attachment>
+				<filePath>report.html</filePath>
+				<description>Performance Test Report Details</description>
+			</attachment>
+			<attachment>
+				<filePath>raw.csv</filePath>
+				<description>Raw Cycle Time Data</description>
+			</attachment>
+		</attachments>
+
+
 		<test-case id="9041" name="FX Push Duration" fullname="fx.push" result="Passed" duration="560"/>
 		<test-case id="9001" name="Futures Push Duration" fullname="fut.push" result="Passed" duration="600">
 		</test-case>
