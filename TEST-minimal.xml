@@ -5,7 +5,7 @@
 
 
 
-  <test-suite type="Assembly" id="1036" name="mock-assembly.dll" fullname="D:\Dev\NUnit\nunit-3.0\work\bin\vs2008\Debug\mock-assembly.dll" testcasecount="25" result="Failed" time="0.154" total="18" passed="12" failed="2" inconclusive="1" skipped="3" asserts="2">
+  <test-suite type="Assembly" id="1036" name="Concurrent" fullname="Concurrent" testcasecount="25" result="Failed" time="0.154" total="18" passed="12" failed="2" inconclusive="1" skipped="3" asserts="2">
     <properties>
       <property name="_PID" value="11928" />
       <property name="_APPDOMAIN" value="test-domain-mock-assembly.dll" />
