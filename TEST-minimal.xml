@@ -13,7 +13,7 @@
 			<message><![CDATA[Child test failed]]></message>
 		</failure>
 		<test-case id="9041" name="FX Push Duration" fullname="fx.push" result="Passed" duration="560"/>
-		<test-case id="9001" name="Futures Push Duration" fullname="fut.push" result="Passed">
+		<test-case id="9001" name="Futures Push Duration" fullname="fut.push" result="Passed" duration="600">
 		</test-case>
 		<test-case id="9002" name="Futures Cycle Time 50th Percentile" fullname="fut.c50" result="Passed" duration="4.5">
 		</test-case>
