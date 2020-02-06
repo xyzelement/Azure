@@ -5,7 +5,7 @@
 
 
 
-  <test-suite type="Assembly" id="1036" name="Concurrent" fullname="Concurrent with 20% Futures" testcasecount="25" result="Failed" time="0.154" total="18" passed="12" failed="2" inconclusive="1" skipped="3" asserts="2">
+  <test-suite type="Assembly" id="1036" name="Concurrent with 20% Futures" fullname="Concurrent with 20% Futures" testcasecount="25" result="Failed" time="0.154" total="18" passed="12" failed="2" inconclusive="1" skipped="3" asserts="2">
     <properties>
       <property name="_PID" value="11928" />
       <property name="_APPDOMAIN" value="test-domain-mock-assembly.dll" />
@@ -13,10 +13,10 @@
     <failure>
       <message><![CDATA[Child test failed]]></message>
     </failure>
-    <test-case id="5" name="5" Xfullname="5" result="Failed" time="0.023" asserts="0">
-	    <properties>
+    <test-case id="9001" name="Futures Cycle Time 50th Percentile" fullname="5" result="Failed" time="0.023" asserts="0">
+	    <!-- <properties>
 		    <property name="TestPointId" value="5"/>
-	    </properties>
+	    </properties> -->
         <failure>
           <message>Out of SLA</message>
           <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args) in D:\Dev\NUnit\nunit-3.0\work\NUnitFramework\src\framework\Assert.cs:line 142
@@ -24,5 +24,6 @@
    at NUnit.Tests.Assemblies.MockTestFixture.FailingTest() in D:\Dev\NUnit\nunit-3.0\work\NUnitFramework\src\mock-assembly\MockAssembly.cs:line 121]]></stack-trace>
         </failure>
       </test-case>
+      <test-case id="9002" name="Futures Cycle Time 90th Percentile" fullname="5" result="Failed" label="50/10sec"/>
   </test-suite>
 </test-run>
