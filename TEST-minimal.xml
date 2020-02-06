@@ -15,7 +15,7 @@
     </failure>
     <test-case id="5" name="5" Xfullname="5" result="Failed" time="0.023" asserts="0">
 	    <properties>
-		    <property name="TestCaseId" value="5"/>
+		    <property name="TestPointId" value="5"/>
 	    </properties>
         <failure>
           <message>Out of SLA</message>
