@@ -13,5 +13,11 @@
 				<message>Bogus number of families created (X, expected Y)</message>
 			</failure>
 		</test-case>
+		<test-case id="9002" name="Push Validation" fullname="fut.quarantines" result="Failed">
+			<failure>
+				<message>X Quarantines exist, expected 0</message>
+			</failure>
+                </test-case>
+
 	</test-suite>
 </test-run>
