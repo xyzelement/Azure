@@ -13,7 +13,7 @@
     <failure>
       <message><![CDATA[Child test failed]]></message>
     </failure>
-    <test-case id="5" name="5" fullname="5" result="Failed" time="0.023" asserts="0">
+    <test-case id="5" name="5" 1fullname="5" result="Failed" time="0.023" asserts="0">
 	    <properties>
 		    <property name="TestCaseId" value="5"/>
 	    </properties>
