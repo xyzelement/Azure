@@ -13,9 +13,9 @@
     <failure>
       <message><![CDATA[Child test failed]]></message>
     </failure>
-      <test-case id="1005" name="FutCycle" fullname="Futures Cycle Time" result="Failed" time="0.023" asserts="0">
+      <test-case id="1005" name="Futures Cycle Time" Xfullname="Futures Cycle Time" result="Failed" time="0.023" asserts="0">
         <failure>
-          <message><![CDATA[Intentional failure]]></message>
+          <message>Out of SLA</message>
           <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args) in D:\Dev\NUnit\nunit-3.0\work\NUnitFramework\src\framework\Assert.cs:line 142
    at NUnit.Framework.Assert.Fail(String message) in D:\Dev\NUnit\nunit-3.0\work\NUnitFramework\src\framework\Assert.cs:line 152
    at NUnit.Tests.Assemblies.MockTestFixture.FailingTest() in D:\Dev\NUnit\nunit-3.0\work\NUnitFramework\src\mock-assembly\MockAssembly.cs:line 121]]></stack-trace>
