@@ -4,11 +4,11 @@
 
 
 
-	<test-suite type="Assembly" id="9000" name="Concurrent with 20% Futures" fullname="Concurrent with 20% Futures" result="sdfsdfsd">
+	<test-suite type="Assembly" id="9000" name="Concurrent with 20% Futures" fullname="Concurrent with 20% Futures" result="Failed">
 		<failure>
 			<message><![CDATA[Child test failed]]></message>
 		</failure>
-		<test-case id="9001" name="Push Validation" fullname="fut.push.validation" result="Aborted">
+		<test-case id="9001" name="Push Validation" fullname="fut.push.validation" result="Failed">
 			<failure>
 				<message>Bogus number of families created (X, expected Y)</message>
 			</failure>
