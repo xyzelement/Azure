@@ -15,6 +15,7 @@
 		<test-case id="9003" name="Futures Push" fullname="fut.push" result="Inconclusive" duration="4.5">
 			<failure>
 				<message>Bogus number of families created (X, expected Y)</message>
+			</failure>
 		</test-case>
 		<test-case id="9001" name="Futures Cycle Time 50th Percentile" fullname="fut.c50" result="Passed" duration="4.5">
 		</test-case>
