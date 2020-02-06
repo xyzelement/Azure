@@ -12,15 +12,12 @@
 		<failure>
 			<message><![CDATA[Child test failed]]></message>
 		</failure>
-		<test-case id="9041" name="FX Push" fullname="fx.push" result="Passed" duration="560"/>
-		<test-case id="9001" name="Futures Push" fullname="fut.push" result="Passed">
+		<test-case id="9041" name="FX Push Duration" fullname="fx.push" result="Passed" duration="560"/>
+		<test-case id="9001" name="Futures Push Duration" fullname="fut.push" result="Passed">
 		</test-case>
 		<test-case id="9002" name="Futures Cycle Time 50th Percentile" fullname="fut.c50" result="Passed" duration="4.5">
 		</test-case>
-		<test-case id="9003" name="Futures Cycle Time 90th Percentile" fullname="fut.c90A" result="Failed" duration="50">
-			<failure>
-				<message>50 sec/10 sec sla</message>
-			</failure>
+		<test-case id="9003" name="Futures Cycle Time 90th Percentile" fullname="fut.c90A" result="Passed" duration="9">
 		</test-case>
 	</test-suite>
 </test-run>
