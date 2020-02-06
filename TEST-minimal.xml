@@ -5,7 +5,7 @@
 
 
 
-  <test-suite type="Assembly" id="1036" name="Concurrent" fullname="Concurrent" testcasecount="25" result="Failed" time="0.154" total="18" passed="12" failed="2" inconclusive="1" skipped="3" asserts="2">
+  <test-suite type="Assembly" id="1036" name="Concurrent" fullname="Concurrent with 20% Futures" testcasecount="25" result="Failed" time="0.154" total="18" passed="12" failed="2" inconclusive="1" skipped="3" asserts="2">
     <properties>
       <property name="_PID" value="11928" />
       <property name="_APPDOMAIN" value="test-domain-mock-assembly.dll" />
@@ -13,7 +13,7 @@
     <failure>
       <message><![CDATA[Child test failed]]></message>
     </failure>
-      <test-case id="1005" name="Concurrent" fullname="NUnit.Tests.Assemblies.MockTestFixture.Concurrent" result="Failed" time="0.023" asserts="0">
+      <test-case id="1005" name="FutCycle" fullname="Futures Cycle Time" result="Failed" time="0.023" asserts="0">
         <failure>
           <message><![CDATA[Intentional failure]]></message>
           <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args) in D:\Dev\NUnit\nunit-3.0\work\NUnitFramework\src\framework\Assert.cs:line 142
