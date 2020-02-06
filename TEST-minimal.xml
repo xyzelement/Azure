@@ -12,7 +12,7 @@
 		<failure>
 			<message><![CDATA[Child test failed]]></message>
 		</failure>
-		<test-case id="9041" name="FX Push" fullname="fx.push" result="Passed" duration="560">
+		<test-case id="9041" name="FX Push" fullname="fx.push" result="Passed" duration="560"/>
 		<test-case id="9001" name="Futures Push" fullname="fut.push" result="Aborted">
 			<failure>
 				<message>Bogus number of families created (X, expected Y)</message>
