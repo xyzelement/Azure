@@ -4,7 +4,7 @@
 
 
 
-	<test-suite type="Assembly" id="9000" name="Concurrent with 20% Futures" fullname="Concurrent with 20% Futures">
+	<test-suite type="Assembly" id="9000" name="Concurrent with 20% Futures" fullname="Concurrent with 20% Futures" result="Inconclusive">
 		<properties>
 			<property name="_PID" value="11928" />
 			<property name="_APPDOMAIN" value="test-domain-mock-assembly.dll" />
@@ -12,14 +12,14 @@
 		<failure>
 			<message><![CDATA[Child test failed]]></message>
 		</failure>
-		<test-case id="9003" name="Futures Push" fullname="fut.push" result="Inconclusive" duration="4.5">
+		<test-case id="9001" name="Futures Push" fullname="fut.push" result="Inconclusive" duration="4.5">
 			<failure>
 				<message>Bogus number of families created (X, expected Y)</message>
 			</failure>
 		</test-case>
-		<test-case id="9001" name="Futures Cycle Time 50th Percentile" fullname="fut.c50" result="Passed" duration="4.5">
+		<test-case id="9002" name="Futures Cycle Time 50th Percentile" fullname="fut.c50" result="Passed" duration="4.5">
 		</test-case>
-		<test-case id="9002" name="Futures Cycle Time 90th Percentile" fullname="fut.c90A" result="Failed" duration="50">
+		<test-case id="9003" name="Futures Cycle Time 90th Percentile" fullname="fut.c90A" result="Failed" duration="50">
 			<failure>
 				<message>50 sec/10 sec sla</message>
 			</failure>
