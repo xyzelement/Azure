@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run run-date="2011-07-26" start-time="11:34:27" end-time="12:40:00">
+
+
+
+
+	<test-suite type="Assembly" id="9000" name="Concurrent with 20% Futures" fullname="Concurrent with 20% Futures" result="Failed">
+
+		<attachments>
+			<attachment>
+				<filePath>/home/vsts/work/1/s/report.html</filePath>
+				<description>Performance Test Report Details</description>
+			</attachment>
+			<attachment>
+				<filePath>/home/vsts/work/1/s/raw.csv</filePath>
+				<description>Raw Cycle Time Data</description>
+			</attachment>
+		</attachments>
+
+
+		<test-case id="9041" name="FX Push Duration" fullname="fx.push" result="Passed" duration="560"/>
+		<test-case id="9001" name="Futures Push Duration" fullname="fut.push" result="Passed" duration="600">
+		</test-case>
+		<test-case id="9002" name="Futures Cycle Time 50th Percentile" fullname="fut.c50" result="Failed" duration="14.5">
+		</test-case>
+		<test-case id="9003" name="Futures Cycle Time 90th Percentile" fullname="fut.c90A" result="Passed" duration="9">
+		</test-case>
+	</test-suite>
+</test-run>

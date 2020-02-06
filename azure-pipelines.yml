@@ -27,7 +27,7 @@ steps:
   displayName: SampleThing
   inputs:
     testResultsFormat: 'NUnit' # Options: JUnit, NUnit, VSTest, xUnit, cTest
-    testResultsFiles: '**/TEST-pos*.xml' 
+    testResultsFiles: '**/TEST-valid*.xml' 
     #searchFolder: '$(System.DefaultWorkingDirectory)' # Optional
     #mergeTestResults: false # Optional
     failTaskOnFailedTests: true # Optional
