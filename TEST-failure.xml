@@ -8,12 +8,12 @@
 		<failure>
 			<message><![CDATA[Child test failed]]></message>
 		</failure>
-		<test-case id="9001" name="Push Validation" fullname="fut.push.validation" result="Failed">
+		<test-case id="9001" name="Futures Push Validation" fullname="fut.push.validation" result="Failed">
 			<failure>
 				<message>Bogus number of families created (X, expected Y)</message>
 			</failure>
 		</test-case>
-		<test-case id="9002" name="Push Validation" fullname="fut.quarantines" result="Failed">
+		<test-case id="9002" name="Quarantines" fullname="fut.quarantines" result="Failed">
 			<failure>
 				<message>X Quarantines exist, expected 0</message>
 			</failure>
