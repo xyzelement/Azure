@@ -21,7 +21,7 @@
       <failure>
         <message><![CDATA[Child test failed]]></message>
       </failure>
-      <test-case id="1005" name="Concurrent" fullname="NUnit.Tests.Assemblies.MockTestFixture.FailingTest" result="Failed" time="0.023" asserts="0">
+      <test-case id="1005" name="Concurrent" fullname="NUnit.Tests.Assemblies.MockTestFixture.Concurrent" result="Failed" time="0.023" asserts="0">
         <failure>
           <message><![CDATA[Intentional failure]]></message>
           <stack-trace><![CDATA[   at NUnit.Framework.Assert.Fail(String message, Object[] args) in D:\Dev\NUnit\nunit-3.0\work\NUnitFramework\src\framework\Assert.cs:line 142
