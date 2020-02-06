@@ -4,7 +4,7 @@
 
 
 
-	<test-suite type="TestSuite" id="7000" name="Concurrent with 20% Futures" fullname="Concurrent with 20% Futures" result="Failed">
+	<test-suite type="Assembly" id="7000" name="Concurrent with 20% Futures" fullname="Concurrent with 20% Futures" result="Failed">
 		<failure>
 			<message><![CDATA[Child test failed]]></message>
 		</failure>
