@@ -29,7 +29,7 @@ steps:
     #searchFolder: '$(System.DefaultWorkingDirectory)' # Optional
     #mergeTestResults: false # Optional
     #failTaskOnFailedTests: false # Optional
-    #testRunTitle: # Optional
+    testRunTitle: Concurrent # Optional
     #buildPlatform: # Optional
     #buildConfiguration: # Optional
     #publishRunAttachments: true # Optional
