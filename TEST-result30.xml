@@ -3,7 +3,8 @@
 	<environment nunit-version="1.0.0.0" clr-version="2.0.50727.4961" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="D:\Dev\NUnit\nunit-3.0\work\bin\vs2008\Debug" machine-name="CHARLIE-LAPTOP" user="charlie" user-domain="charlie-laptop" culture="en-US" uiculture="en-US" />
 
 
-	<test-suite type="TestSuite" id="9001" name="Concurrent Busy Hr + 20% Fut: CYCLE TIME" result="Failed" label="50%th percentile above SLA (7 vs 5sec)" duration="3600">
+	<test-suite type="TestSuite" id="9001" name="Concurrent Busy Hr + 20% Fut" result="Failed" label="50%th percentile above SLA (7 vs 5sec)" duration="3600">
+		<test-case id="9002" name="Futures Cycle Time" result="Failed"/>
 	</test-suite>
 
 
