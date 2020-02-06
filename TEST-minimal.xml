@@ -13,14 +13,6 @@
     <failure>
       <message><![CDATA[Child test failed]]></message>
     </failure>
-    <test-suite type="TestFixture" id="1000" name="MockTestFixture" fullname="NUnit.Tests.Assemblies.MockTestFixture" testcasecount="11" result="Failed" time="0.119" total="10" passed="4" failed="2" inconclusive="1" skipped="3" asserts="0">
-      <properties>
-        <property name="Category" value="FixtureCategory" />
-        <property name="Description" value="Fake Test Fixture" />
-      </properties>
-      <failure>
-        <message><![CDATA[Child test failed]]></message>
-      </failure>
       <test-case id="1005" name="Concurrent" fullname="NUnit.Tests.Assemblies.MockTestFixture.Concurrent" result="Failed" time="0.023" asserts="0">
         <failure>
           <message><![CDATA[Intentional failure]]></message>
@@ -29,7 +21,5 @@
    at NUnit.Tests.Assemblies.MockTestFixture.FailingTest() in D:\Dev\NUnit\nunit-3.0\work\NUnitFramework\src\mock-assembly\MockAssembly.cs:line 121]]></stack-trace>
         </failure>
       </test-case>
-      <test-case id="1010" name="InconclusiveTest" fullname="NUnit.Tests.Assemblies.MockTestFixture.InconclusiveTest" result="Inconclusive" time="0.001" asserts="0" />
-    </test-suite>
   </test-suite>
 </test-run>
