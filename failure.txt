@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run run-date="2011-07-26" start-time="11:34:27" end-time="12:40:00">
+
+
+
+
+	<test-suite type="Assembly" id="9000" name="Concurrent with 20% Futures" fullname="Concurrent with 20% Futures" result="sdfsdfsd">
+		<failure>
+			<message><![CDATA[Child test failed]]></message>
+		</failure>
+		<test-case id="9001" name="Push Validation" fullname="fut.push.validation" result="Aborted">
+			<failure>
+				<message>Bogus number of families created (X, expected Y)</message>
+			</failure>
+		</test-case>
+	</test-suite>
+</test-run>
